@@ -544,7 +544,7 @@
             }
           },
           "_name": "header5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/scan-1-979x647.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#c1c1c1\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Kleur 2\" value=\"#7f1933\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Grafisch Ontwerp</p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">LEER MEER</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">LIVE DEMO</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/scan%201-979x647.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#c1c1c1\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Kleur 2\" value=\"#7f1933\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Grafisch Ontwerp</p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">LEER MEER</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">LIVE DEMO</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "r4L5hf1EhU",
           "_anchor": "header5-3",
           "_protectedParams": [],
@@ -1211,7 +1211,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-10-09-om-22.51.11-2000x1258.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-10-09%20om%2022.51.11-2000x1258.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-10-09-om-22.51.11-2000x1258-800x503.png",
                 "alt": "",
                 "title": "",
@@ -1551,7 +1551,7 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-20.57.43-1262x1756.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2020.57.43-1262x1756.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1569,7 +1569,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-20.59.23-2000x1401.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2020.59.23-2000x1401.png",
                 "active": true,
                 "showButtons": false,
                 "showText": true,
@@ -1587,7 +1587,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-20.59.36-2000x1397.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2020.59.36-2000x1397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1605,7 +1605,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-20.59.47-2000x1396.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2020.59.47-2000x1396.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1623,7 +1623,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-20.59.57-2000x1401.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2020.59.57-2000x1401.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1641,7 +1641,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.00.07-2000x1401.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.00.07-2000x1401.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1659,7 +1659,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.00.18-2000x1402.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.00.18-2000x1402.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1677,7 +1677,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.00.27-2000x1402.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.00.27-2000x1402.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1695,7 +1695,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.00.36-2000x1404.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.00.36-2000x1404.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1713,7 +1713,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.00.51-2000x1404.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.00.51-2000x1404.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1731,7 +1731,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.01.01-2000x1400.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.01.01-2000x1400.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1749,7 +1749,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.01.11-2000x1404.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.01.11-2000x1404.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1767,7 +1767,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.01.31-2000x1406.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.01.31-2000x1406.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1785,7 +1785,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.01.41-2000x1399.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.01.41-2000x1399.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1803,7 +1803,7 @@
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.01.51-1238x1740.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.01.51-1238x1740.png",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -1945,7 +1945,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.13.11-1816x1268.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.13.11-1816x1268.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.13.11-1816x1268-800x561.png",
                 "alt": "",
                 "title": "",
@@ -1958,7 +1958,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.14.13-1804x1284.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-02%20om%2021.14.13-1804x1284.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-02-om-21.14.13-1804x1284-800x565.png",
                 "alt": "",
                 "title": "",
@@ -2564,7 +2564,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.29.28-850x1204.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-21%20om%2014.29.28-850x1204.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.29.28-850x1204-800x1133.png",
                 "alt": "",
                 "title": "",
@@ -2577,7 +2577,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.49-1834x1180.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-21%20om%2014.32.49-1834x1180.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.49-1834x1180-800x506.png",
                 "alt": "",
                 "title": "",
@@ -2590,7 +2590,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.17-1816x1174.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-21%20om%2014.32.17-1816x1174.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.17-1816x1174-800x517.png",
                 "alt": "",
                 "title": "",
@@ -2603,7 +2603,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.27-1818x1176.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-21%20om%2014.32.27-1818x1176.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.27-1818x1176-800x517.png",
                 "alt": "",
                 "title": "",
@@ -2616,7 +2616,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.05-1824x1178.png",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding%202018-11-21%20om%2014.32.05-1824x1178.png",
                 "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2018-11-21-om-14.32.05-1824x1178-800x517.png",
                 "alt": "",
                 "title": "",
